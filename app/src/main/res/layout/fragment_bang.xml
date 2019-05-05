@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_ffffff"
+    android:orientation="vertical"
+    tools:context=".fragment.BangFragment">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_35">
+
+        <ImageView
+            android:id="@+id/bang_img"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
+            android:src="@drawable/back_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_15"
+            android:text="@string/login8"
+            android:textColor="@color/c_999999"
+            android:textSize="@dimen/sp_14" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_23"
+        android:layout_marginTop="@dimen/dp_44"
+        android:text="@string/login9"
+        android:textColor="@color/c_373737"
+        android:textSize="@dimen/sp_28" />
+
+    <com.example.day.login.IdentifyingCodeView
+        app:icv_et_text_size="@dimen/sp_14"
+        app:icv_et_text_color="@color/c_636363"
+        android:layout_marginTop="@dimen/dp_83"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_56"
+        app:icv_et_divider_drawable="@drawable/dive"
+        app:icv_et_height="@dimen/dp_56"
+        app:icv_et_number="4"
+        app:icv_et_width="@dimen/dp_44"></com.example.day.login.IdentifyingCodeView>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+<string name="app_name">login</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+<string name="hello_blank_fragment">Hello blank fragment</string>
+<string name="login">你好，为了获取更好的服务</string>
+    <string name="login1">请登陆去哪旅行</string>
+    <string name="login2">+86</string>
+    <string name="login3">输入手机号</string>
+    <string name="login4">发送验证码</string>
+    <string name="login5">发送验证码</string>
+    <string name="login6">微信登陆</string>
+    <string name="login7">登陆或注册可既同意去哪旅行用户协议</string>
+    <string name="bang">为了您的账号安全</string>
+    <string name="bang1">请绑定手机号</string>
+    <string name="login8">重新发送</string>
+    <string name="login9">请输入验证码</string>
+</resources>
